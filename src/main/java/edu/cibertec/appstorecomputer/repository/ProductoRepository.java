@@ -16,7 +16,10 @@ import java.util.Optional;
 
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Long> {
-    
+    /*
+    * ESTE ES EL CODIGO DE JORGITO EL EUNUCO
+    * */
+
     Optional<Producto> findByCodigo(String codigo);
     
     List<Producto> findByActivoTrue();
